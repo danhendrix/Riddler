@@ -58,3 +58,4 @@ if choice == "n" or "N":
 	print "Well you held out for either the big prize or..not. Here's your price: ${0}".format(cards[4])
 else:
 	print "I think that means yes. Congratulations! By the way I would have taken {0}".format(n)
+	

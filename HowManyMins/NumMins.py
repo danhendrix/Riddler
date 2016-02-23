@@ -61,14 +61,4 @@ while count < 10:
 
 print float(sum(waitingTotal)) / float(len(waitingTotal))
 
-
-	
-	
-		
-		
-		
-		###choice1 = random.choice(possibleTime)
-	###choice2 = random.choice(possibleTime)
-	###wait1 += choice1
-	###wait2 += choice2 
 	
