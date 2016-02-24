@@ -6,7 +6,7 @@ def vote(x,y):
 	voteFirst = 0
 	voteSecond = 0
 	
-	a = ["A", "B", "C", "D", "E"]
+	a = ["E", "D", "B", "C", "A"]
 	b = ["B", "A", "E", "D", "C"]
 	c = ["C", "D", "A", "E", "B"]
 	d = ["D", "B", "A", "E", "C"]
