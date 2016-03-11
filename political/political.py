@@ -1,7 +1,3 @@
-
-
-
-
 def vote(x,y):
 	voteFirst = 0
 	voteSecond = 0
