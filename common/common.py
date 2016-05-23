@@ -15,17 +15,17 @@ def grind(number):
 
 		while len(left) > 0:
 			thePick = random.choice(choices)
-			picked.append(thePick)
+			results.append(thePick)
 			if thePick in left:
 				left.remove(thePick)
 			else:
 				continue
 		
-		results.append(picked)
+		#results.append(picked)
 		count += 1
 
-	for i in results:
-		return Counter(results[i])
+	return Counter(results)
 	
-print grind(2)
+print grind(1000000)
 
+#Results from 1,000,000 simulations: Common: 3.157733 Uncommon: 2.102899 Rare: 1.050436
